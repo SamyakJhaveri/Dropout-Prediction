@@ -42,5 +42,8 @@ track logs have 17 unique actions that it tracks such as ‘click_about’, ‘l
 
 A preliminary EDA revealed that the dataset has information of roughly 155000 unique students studying a total of 247 courses from the MOOC platform.
 
+## MOOC Course Recommendation System Architecture
+ (add image here)
+
 
 
