@@ -3,6 +3,7 @@ As part of Machine Learning Internship at SilverTouch Technologies
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Motivation and Aim](#motivation-and-aim)
 - [Literature Review](#literature-review)
 - [The Dataset and Exploratory Data Analysis](#the-dataset-and-exploratory-data-analysis)
 - [Libraries and Tools used](#libraries-and-tools-used)
@@ -14,6 +15,22 @@ As part of Machine Learning Internship at SilverTouch Technologies
 MOOCs have been observed to be designed for a wide audience of varied grasping potential, and lack in providing a certain degree of personalization that some students may require. An addition to the personalization of MOOC courses shall tailor the course experience for individual needs and engage them to the MOOC platform for longer and built a dropout prediction model for forecasting the possibility of a student dropping out of a MOOC course based on their web tracking logs on the MOOC platform website.
 
 In addition to the customizability and personalization of the courses/platforms, it would help to engage students better and reduce the chances of them dropping out of the courses should they find the courses difficult to complete or redundantly lengthy. 
+
+[Back to Top](#table-of-contents)
+
+## Motivation and Aim
+
+The project has two parts - recommendation system, and dropout prediction
+
+Objective of course recommendation system:  
+- To personalize the MOOC experience for students
+- Improve and maintain user engagement to the platform
+ 
+ Objective of Dropout prediction
+ - Tells whether a student is going to drop out of a course, based on user-course pair
+ - Triggers recommendation. Instead of recommending courses all the time, only recommends courses when the user appears to show signs of dropping out of a course
+ - Detect effectiveness of course based on what percentage of students would succeed in it and what portion would drop out
+ - The cosine pairwise similarity was better than the correlation matrix on clustered data since it was much more memory efficient
 
 **This project aims to develop a machine learning solution by using dropout prediction and collaborative filtering recommendation engine to better analyze the data about a student’s activities on the MOOC platform and provide course material recommendations accordingly.**
 
